@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Project</title>
+</head>
+
+<body>
+
+    <nav id="nav" class="active">
+        <ul>
+            <li>
+                <a href="#main">Home</a>
+            </li>
+            <li>
+                <a href="#popular">Popular</a>
+            </li>
+            <li>
+                <a href="#kids">Kids</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <header>
+            <form id="form">
+                <input type="text" placeholder="Search" id="search" class="search">
+            </form>
+        </header>
+        <button id="toggle" class="icon">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+        </button>
+    </nav>
+
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content" id="overlay-content"></div>
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8658;</a>
+
+    </div>
+    <main id="main">
+        <div class="movie">
+            <img src="images/1.png" alt="image">
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+            <div class="overview">
+                <h3>Overview</h3>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, facere?
+            </div>
+        </div>
+        <div class="movie">
+            <img src="images/1 (2).PNG" alt="image">
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+            <div class="overview">
+                <h3>Overview</h3>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, facere?
+            </div>
+        </div>
+        <div class="movie">
+            <img src="images/nirma.png" alt="image">
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+            <div class="overview">
+                <h3>Overview</h3>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, facere?
+            </div>
+        </div>
+    </main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

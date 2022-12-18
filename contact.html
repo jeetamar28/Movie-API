@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+
+<body>
+    <div id="contcontaineract-" class="container">
+        <div class="row">
+            <div id="contact-left" class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p>contact@example.com</p>
+                <social id="social-media" class="container">
+                    <ul>
+                        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100086633864085"><img
+                                    src="images/facebook.png" alt="image"></li>
+
+                        <li><a target="_blank" href="https://www.github.com/jeetamar28"><img src="images/github.png"
+                                    alt="image"></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/jeetamar/"><img
+                                    src="images/linkedin.png" alt="image"></li>
+                        <li><a target="_blank" href="https://www.instagram.com/jeet_u_28/"><img src="images/insta.png"
+                                    alt="image"></li>
+                    </ul>
+
+                </social>
+
+            </div>
+            <div id="contact-right" class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-Mail ID" required>
+                    <input type="message" rows="6" placeholder="Your Message" required>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    .contact-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .contact-left {
+        flex-basis: 35%;
+    }
+
+    .contact-left p {
+        margin-top: 30px;
+    }
+
+    .btn {
+        display: block;
+        margin: 50px;
+        width: fit-content;
+        border: 1px solid #ff004f;
+        padding: 14px 50px;
+        border-radius: 6px;
+        text-decoration: none;
+        color: #080808;
+        transition: background 0.5s;
+        display: inline-block;
+    }
+
+    .btn:hover {
+        background: #ff004f;
+    }
+
+    .btn.btn2 {
+        display: inline-block;
+        background: #ff004f;
+        color: #fff;
+    }
+
+    .btn.btn2:hover {
+        color: #ff004f;
+        background: #fff;
+    }
+
+    ul {
+        display: flex;
+        padding: 0;
+    }
+
+    ul li {
+        list-style: none;
+        padding: 5px;
+    }
+
+    ul li a img {
+        width: 20px;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .contact-right {
+        flex-basis: 60%;
+
+    }
+
+    .contact-right form {
+        width: 100%;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        border: 0;
+        outline: none;
+        background: #dbdbdb;
+        padding: 15px;
+        margin: 15px 0;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+</style>
+
+</html>
